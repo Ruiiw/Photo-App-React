@@ -24,7 +24,7 @@ class Suggestion extends React.Component {
 
 
     startFollowing () {
-        const url = '/api/following/';
+        const url = 'https://rui-photo-app-3.herokuapp.com/api/following/';
         const followingData = {
             user_id: this.state.suggestion.id
         }

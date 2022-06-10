@@ -27,7 +27,7 @@ export function setAccessTokenCookie(username, password, callback) {
         "username": username,
         "password": password
     };
-    fetch("/api/token/", {
+    fetch("https://rui-photo-app-3.herokuapp.com/api/token/", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

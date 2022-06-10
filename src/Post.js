@@ -34,7 +34,7 @@ class Post extends React.Component {
   // };
 
   refreshPostDataFromServer() {
-    const url = "/api/posts/" + this.state.post.id;
+    const url = "https://rui-photo-app-3.herokuapp.com/api/posts/" + this.state.post.id;
     fetch(url, {
       headers: getHeaders(),
     })

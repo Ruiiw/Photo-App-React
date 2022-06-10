@@ -12,7 +12,7 @@ class Posts extends React.Component {
   }
 
   getPostsFromServer() {
-    fetch("/api/posts", {
+    fetch("https://rui-photo-app-3.herokuapp.com/api/posts", {
       headers: getHeaders(),
     })
       .then((response) => response.json())
